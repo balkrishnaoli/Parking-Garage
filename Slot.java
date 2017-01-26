@@ -1,9 +1,11 @@
 public Slot{
+
   boolean isOccupied;
   int slotNumber;
-  SlotType slotType;
+  String slotType;
   boolean isHandicap;
-  public Slot(boolean isOccupied, int slotNumber, SlotType slotType, boolean isHandicap){
+
+  public Slot(boolean isOccupied, int slotNumber, String slotType, boolean isHandicap){
     this.isOccupied = isOccupied;
     this.slotNumber = slotNumber;
     this.slotType = slotType;
