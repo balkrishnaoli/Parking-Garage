@@ -1,4 +1,4 @@
-public Slot{
+public class Slot{
 
   boolean isOccupied;
   int slotNumber;
